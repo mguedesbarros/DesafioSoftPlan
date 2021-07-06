@@ -12,7 +12,8 @@ Api responsável por:
 - fazer o calculo de juros, utilizando a taxa de juros utilizada na api de taxa de juros.
 - Trazer a URL do codigo fonte do github
 
-
 --------------------------------------------------------------------------------------------------------------------
 
-Projeto desenvolvido utilizando asp net 5.0.
+* Ambas apis tem test de integração e serviço.
+
+* Projeto desenvolvido utilizando asp net 5.0, swagger e Docker
