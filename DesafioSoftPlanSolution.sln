@@ -17,9 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoJurosAPI", "src\API\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{099A61A9-4237-4446-9B06-04DCA5C8CD3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJurosAPI.UnitTests", "test\TaxaJurosAPI.IntegrationTest\TaxaJurosAPI.UnitTests.csproj", "{F18A27F2-FAB9-4CBA-882D-405FECC501EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxaJurosAPI.UnitTests", "test\TaxaJurosAPI.UnitTests\TaxaJurosAPI.UnitTests.csproj", "{F18A27F2-FAB9-4CBA-882D-405FECC501EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoJurosAPI.UnitTests", "test\CalculoJurosAPI.IntegrationTest\CalculoJurosAPI.UnitTests.csproj", "{6C8D98B7-FC41-46E0-B9A8-76416143A947}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoJurosAPI.UnitTests", "test\CalculoJurosAPI.UnitTests\CalculoJurosAPI.UnitTests.csproj", "{6C8D98B7-FC41-46E0-B9A8-76416143A947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
