@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace TaxaJurosAPI.Controllers
 {
     [ApiController]
-    [Route("[api/controller]")]
+    [Route("api/[controller]")]
     public class TaxaJurosController : ControllerBase
     {       
         private readonly ILogger<TaxaJurosController> _logger;
@@ -24,7 +24,6 @@ namespace TaxaJurosAPI.Controllers
         }
 
         [HttpGet]
-        [Route("taxaJuros")]
         [ProducesResponseType(typeof(decimal), (int)HttpStatusCode.OK)]
         public ActionResult Get()
         {
