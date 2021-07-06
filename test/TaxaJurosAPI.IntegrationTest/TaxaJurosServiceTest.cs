@@ -15,7 +15,7 @@ namespace TaxaJurosAPI.UnitTests
     public class TaxaJurosServiceTest
     {
         [Fact(DisplayName = "Taxa de juros retornando com sucesso")]
-        public void CalcularTaxaJuros_Success_Test()
+        public void TaxaJuros_Success_Test()
         {
             var jurosService = new TaxaJurosService();
 
@@ -26,7 +26,7 @@ namespace TaxaJurosAPI.UnitTests
         }
 
         [Fact(DisplayName = "Taxa de juros retornando com erro")]
-        public void CalcularTaxaJuros_Error_Test()
+        public void TaxaJuros_Error_Test()
         {
             var jurosService = new TaxaJurosService();
 
