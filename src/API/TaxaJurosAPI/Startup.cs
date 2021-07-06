@@ -7,6 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using SoftPlanService;
+using SoftPlanService.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,8 @@ namespace TaxaJurosAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "TaxaJurosAPI", Version = "v1" });
             });
+
+            services.AddTransient<ITaxaJurosService, TaxaJurosService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
